@@ -131,7 +131,7 @@ let persons =
       </form>
     `
     app.get('/', (req, res) => {
-      res.send('')
+      res.send('Hello World')
     })
     app.get('/api/persons', (request, response) => {
             response.json(persons)
